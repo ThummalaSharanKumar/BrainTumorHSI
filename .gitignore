@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Checkpoints and model weights
+*.pth
+*.pt
+*.pkl
+
+# Data and intermediate outputs
+/data_raw/
+*.csv
+*.xlsx
+*.xls
+*.npy
+*.npz
+*.h5
+*.json
+
+# Logs and cache
+*.log
+logs/
+wandb/
+runs/
+__cache__/
+
+# Jupyter and notebooks
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+*.ipynb
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+tmp/
+temp/
+*.bak
+*.swp
+*.zip
+*.tar
+*.tar.gz
